@@ -1,0 +1,37 @@
+[
+    {
+      "updateLog": "<ul><li>修改更新接口为码云</li><li><font color=\"red\">需要使用新版开天斧更新其他规则</font></li><li>样式调整</li></ul>",
+      "name": "开天斧",
+      "updateUrl": "http://pasteme.cn/57232",
+      "clipboardID": "57232",
+      "version": "7"
+    },
+    {
+      "updateLog": "<ul><li>修改默认域名</li></ul>",
+      "name": "小虾",
+      "updateUrl": "http://pasteme.cn/57216",
+      "clipboardID": "57216",
+      "version": "2"
+    },
+    {
+      "updateLog": "<ul><li>修改默认域名</li></ul>",
+      "name": "小橘",
+      "updateUrl": "http://pasteme.cn/57218",
+      "clipboardID": "57218",
+      "version": "3"
+    },
+    {
+      "updateLog": "<ul><li>修改默认域名</li></ul>",
+      "name": "卡布奇洛",
+      "updateUrl": "http://pasteme.cn/57219",
+      "clipboardID": "57219",
+      "version": "3"
+    },
+    {
+      "updateLog": "<ul><li>修改默认域名</li></ul>",
+      "name": "迪迦",
+      "updateUrl": "http://pasteme.cn/57220",
+      "clipboardID": "57220",
+      "version": "2"
+    }
+]
