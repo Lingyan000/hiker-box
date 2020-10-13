@@ -1,10 +1,10 @@
 [
     {
-      "updateLog": "<ul><li>修改更新接口为码云</li><li><font color=\"red\">需要使用新版开天斧更新其他规则</font></li><li>样式调整</li></ul>",
+      "updateLog": "<ul><li>多更新接口，一个坏了换下一个</li><li><font color=\"red\">需要使用新版开天斧更新其他规则</font></li><li>历史记录和规则跳转分离，清空历史记录也能跳转，没有导入的规则不会显示</li></ul>",
       "name": "开天斧",
-      "updateUrl": "http://pasteme.cn/57232",
-      "clipboardID": "57232",
-      "version": "7"
+      "updateUrl": "http://pasteme.cn/58085",
+      "clipboardID": "58085",
+      "version": "8"
     },
     {
       "updateLog": "<ul><li>修改默认域名</li></ul>",
