@@ -7,11 +7,11 @@
       "version": "8"
     },
     {
-      "updateLog": "<ul><li>修改默认域名</li></ul>",
+      "updateLog": "<ul><li>搜索不到时不再报错</li></ul>",
       "name": "小虾",
-      "updateUrl": "http://pasteme.cn/57216",
-      "clipboardID": "57216",
-      "version": "2"
+      "updateUrl": "http://pasteme.cn/58622",
+      "clipboardID": "58622",
+      "version": "3"
     },
     {
       "updateLog": "<ul><li>修改默认域名</li></ul>",
