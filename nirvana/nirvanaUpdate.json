@@ -1,10 +1,10 @@
 [
     {
-      "updateLog": "<ul><li>多更新接口，一个坏了换下一个</li><li><font color=\"red\">需要使用新版开天斧更新其他规则</font></li><li>历史记录和规则跳转分离，清空历史记录也能跳转，没有导入的规则不会显示</li></ul>",
+      "updateLog": "<ul><li>添加对玄奘的支持</li><li><font color=\"red\">需要使用新版开天斧更新其他规则</font></li></ul>",
       "name": "开天斧",
-      "updateUrl": "http://pasteme.cn/58085",
-      "clipboardID": "58085",
-      "version": "8"
+      "updateUrl": "http://pasteme.cn/59003",
+      "clipboardID": "59003",
+      "version": "9"
     },
     {
       "updateLog": "<ul><li>搜索不到时不再报错</li></ul>",
@@ -33,5 +33,11 @@
       "updateUrl": "http://pasteme.cn/57220",
       "clipboardID": "57220",
       "version": "2"
+    },{
+      "updateLog": "<ul><li>初始版本</li></ul>",
+      "name": "玄奘",
+      "updateUrl": "http://pasteme.cn/59004",
+      "clipboardID": "59004",
+      "version": "1"
     }
 ]
