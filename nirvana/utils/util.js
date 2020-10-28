@@ -79,7 +79,7 @@ function getUrlDomain(url) {
 }
 
 function GetUrlParam(url) {
-    if (relUrl.indexOf("?") != -1) {
+    if (url.indexOf("?") != -1) {
         var arrUrl = url.split("?");
         var param = arrUrl[1];
     } else {
