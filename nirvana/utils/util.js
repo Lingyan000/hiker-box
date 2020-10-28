@@ -60,12 +60,9 @@ function request(url, param, noTips, needAll) {
 }
 
 function getUrlPath(url) {
-    setError(url)
     var arrUrl = url.split("//");
-
     var start = arrUrl[1].indexOf("/");
     var relUrl = arrUrl[1].substring(start);
-
     if (relUrl.indexOf("?") != -1) {
         relUrl = relUrl.split("?")[0];
     }
@@ -107,6 +104,10 @@ function getDoubanResources(method, url, param) {
         "&_ts=" +
         ts +
         (body ? "&" + body : "");
-    let res = request(requestUrl, param || {});
+    let res = request(requestUrl, param || {
+        headers: {
+            "User-Agent": "api-client/1 com.douban.frodo/6.44.0(196)"
+        }
+    });
     return res;
 }
