@@ -37,7 +37,8 @@ function request(url, param, noTips, needAll) {
             if (needAll) return res;
             return res.body;
         } else {
-            if (!noTips) setHomeResult({ data: [{ title: "‘返回错误！！！ Status Code:" + res.statusCode + "’", col_type: "text_1" }] })
+            if (!noTips) setHomeResult({ data: [{ title: "‘返回错误！！！ Status Code:" + res.statusCode + "’", col_type: "text_1" }] });
+            return;
         }
     } else {
         if (isJSON(res)) res = JSON.parse(res)
