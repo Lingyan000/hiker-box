@@ -28,8 +28,8 @@ function haveStatusCode(res) {
 }
 
 function request(url, param, noTips, needAll) {
-    param["withStatusCode"] = true;
-    let res = fetch(url, param);
+    if (param) param["withStatusCode"] = true;
+    let res = fetch(url, param || { withStatusCode: true });
     if (this.haveStatusCode(res)) {
         res = JSON.parse(res);
         if (res.statusCode == 200) {
